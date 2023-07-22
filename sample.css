@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+li{
+    display: block;
+    text-transform: uppercase;
+    display: inline;
+    margin: 50px;
+}
+hr{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: orangered;
+    
+}
+img{
+    margin: -5px;
+    margin-top: 10px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+b{
+    font-size: 50px;
+    letter-spacing: 0;
+}
+sub{
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
