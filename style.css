@@ -1,0 +1,75 @@
+body{
+    background-image: url(./food.jpg);
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+li{
+    text-align: center;
+    display: inline;
+    margin: 135px;
+    padding: 30px;
+}
+a{
+   text-decoration: none;
+   color: aliceblue;
+   font-size: 20px;
+   font-weight: 800;
+}
+a:hover{
+    background-color: rgba(255, 166, 0, 0.432);
+    border:  10px;
+    border-radius: 25px;
+    padding: 5px;
+}
+p{
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 166, 0, 0.175);
+}
+.para{
+    background-color: rgba(255, 166, 0, 0.175);
+    text-align: center;
+}
+button{
+    font-size: medium;
+    background-color: rgba(255, 166, 0, 0.281);
+    color: aliceblue;
+    margin: 0px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+}
+h4{
+    text-align: left;
+}
+
+.item{
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+}
+#item{
+    background-color: rgba(255, 166, 0, 0.288);
+}
+.food{
+    display: inline;
+    margin: 0px;
+    padding: 0;
+    margin-left: 15px;
+}
+#last{
+    margin: 0;
+    margin-left: 600px;
+}
