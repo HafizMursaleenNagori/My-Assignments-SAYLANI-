@@ -1,0 +1,22 @@
+div{
+    border: 3px solid;
+}
+.a{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(202, 134, 134);
+    margin: 20px;
+}
+.b{
+    float: right;
+    width: 1050px;
+    height: 100px;
+    background-color: rgb(114, 186, 214);
+    margin-top: -127px;
+    margin-right: 20px;
+}
+#last{
+    height: 100px;
+    background-color: khaki;
+    margin: 20px;
+}
