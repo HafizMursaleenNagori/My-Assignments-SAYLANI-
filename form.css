@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://wallpaperset.com/w/full/4/4/6/517256.jpg);
+    font-family: sans-serif;  
+    overflow: hidden;  
+}
+div{
+    background-color: rgba(245, 222, 179, 0.842);
+    width: 300px;
+    padding: 5px 10px;
+    margin: 150px 60px;
+    border-radius: 5px;
+    height: 420px;
+}
+h2{
+    text-align: center;
+}
+input{
+    margin: 5px;
+    padding: 10px 12px;
+    text-align: left;
+    border: 1px solid grey;
+    border-bottom: 3px solid grey;
+    border-radius: 5px;
+
+}
+select{
+    margin: 5px;
+    padding: 8px 12px;
+    width: 290px;
+    border: 1px solid grey;
+    border-bottom: 3px solid grey;
+    border-radius: 5px
+}
+button{
+    margin: 5px;
+    padding: 8px 12px;
+    width: 290px;
+    background-color: rgba(25, 25, 71, 0.904);
+    color: white;
+    border-radius: 5px;
+}
+input.a{
+    width: 265px;
+}
+input[type=text]{
+    background-image: url(./images.png);
+    background-repeat: no-repeat;
+}
+input[type=email]{
+    background-image: url(./email.jpg);
+    background-repeat: no-repeat;
+    
+}
+input[type=password]{
+    background-image: url(./pass.png);
+    background-repeat: no-repeat;
+}
+::-webkit-input-placeholder{
+    padding-left: 12px;
+}
+button:active{
+    background-color: rgba(15, 15, 46, 0.904);
+}
+button:hover{
+    cursor: pointer;
+}
