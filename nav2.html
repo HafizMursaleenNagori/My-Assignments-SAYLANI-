@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd nav</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+body{
+    background-color: rgb(202, 220, 235);
+    text-transform: capitalize;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+#i{
+    margin: 10px -50px;
+}
+a{
+    font-size: larger;
+    background-color: rgb(27, 27, 27);
+    padding: 10px 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    background-color: aliceblue;
+    color: rgb(27, 27, 27);
+}
+nav{
+    color: aliceblue;
+    width: 80%;
+    margin: auto;
+    height: 65px;
+    
+}
+.one{
+    background-color: lightseagreen;
+    margin-top: -45px;
+}
+ul{
+    margin-left: 45px;
+    margin-top: -7px;
+}
+li{
+    display: inline;
+    margin-left: 15px;
+}
+li:hover{
+    cursor: pointer;
+}
+h3{
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+h1{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+}
+select{
+    border: none;
+    background-color: lightseagreen;
+    color: aliceblue;
+    font-size: 16px;
+}
+input[type=search]{
+    border: none;
+    background-color: lightseagreen;
+    float: right;
+    position: relative;
+    bottom: 35px;
+    right: 25px;
+    border-bottom: 1px solid aliceblue;
+    padding-bottom: 5px;
+}
+::-webkit-input-placeholder{
+    color: aliceblue;
+    font-size: 16px;
+}
+.two{
+    background-color: rgb(128, 0, 43);
+    margin-top: -7px;
+}
+#nav2{
+    background-color: rgb(128, 0, 43);
+}
+i{
+    float: right;
+    position: relative;
+    bottom: 30px;
+    right: 25px;
+    margin-right: 20px;
+}
+.three{
+    background-color: rgb(113, 170, 216);
+    margin-top: -7px;
+}
+#nav3{
+    background-color: rgb(113, 170, 216);
+}
+#t{
+    float: right;
+    margin-right: -65px;
+}
+.fa-envelope{
+    position: relative;
+    top: 10px;
+    right: 330px;
+}
+.fa-gear{
+    position: relative;
+    top: 10px;
+    right: 210px;
+}
+#last{
+    position: relative;
+    top: 10px;
+    right: 80px;
+}
+.four{
+    background-color: blueviolet;
+    margin-top: -7px;
+}
+#nav4{
+    background-color: blueviolet;
+}
+#l-e{
+    position: relative;
+    top: -30px;
+    left: -10px;
+}
+p{
+    float: right;
+    position: relative;
+    top: -55px;
+    right: 60px;
+}
+.five{
+    background-color: darkblue;
+    margin-top: -7px;
+}
+#nav5{
+    background-color: darkblue;
+}
+.six{
+    background-color: pink;
+    color: black;
+    margin-top: -7px;
+}
+input.scnd[type=search]{
+    background-color: pink;
+    border-color: black;
+}
+.seven{
+    background-color: red;
+    margin-top: -7px;
+}
+button{
+    background-color: red;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    color: #ffffff;
+    float: right;
+    position: relative;
+    bottom: 45px;
+    left: 260px;
+}
+input.trd[type=search]{
+    background-color: red;
+    margin-right: 100px;
+}
+.eight{
+    background-color: #000000;
+    width: 100%;
+    margin: auto;
+    margin-top: 35px;
+}
+#Lst{
+    float: right;
+    margin-right: -65px;
+    margin-top: -50px;
+}
+#LstLst{
+    background-color: #000000;
+}
+.fa-heart{
+    position: relative;
+    right: 360px;
+    top: 10px;
+}
+.fa-thumbs-up{
+    position: relative;
+    right: 245px;
+    top: 10px;
+}
+.fa-radio{
+    position: relative;
+    right: 80px;
+    top: 8px;
+}
+.pc ::-webkit-input-placeholder{
+    color: #000000;
+}
+i:hover{
+    cursor: pointer;
+}
+button#only:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: red;
+}
+</style>
+</head>
+<body>
+    <div>
+        <ul  id="i">
+            <li><a href="./index.html">Main</a></li>
+        </ul>
+    </div>
+    <nav class="one">
+        <h3>Navbar</h3>
+            <ul>
+                <li>home</li>
+                <li>features</li>
+                <li>pricing</li>
+                <li><select name="" id=""><option value="">Dropdown</option></select></li>
+            </ul>
+            <input type="search" placeholder="Search">
+    </nav>
+    <nav class="two">
+        <h3>Navbar</h3>
+            <ul>
+                <li>lifestyle</li>
+                <li>beauty</li>
+                <li><select name="" id="nav2"><option value="">Tutorials</option></select></li>
+            </ul>
+            <i class="fa-solid fa-filter fa-2xs"></i>
+            <i class="fa-solid fa-user fa-sm" style="color: #ffffff;"></i> 
+            <i class="fa-brands fa-google-plus-g fa-sm" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter fa-sm" style="color: #ffffff;"></i>
+ </nav>
+ 
+ <nav class="three">
+    <h3>Navbar</h3>
+        <ul id="t">
+            <li><i class="fa-solid fa-envelope fa-sm" style="color: #ffffff;"></i>contact</li>&nbsp;&nbsp;&nbsp;
+            <li><i class="fa-solid fa-gear fa-sm" style="color: #ffffff;"></i>settings</li>&nbsp;&nbsp;&nbsp;
+            <li><i id="last" class="fa-solid fa-user fa-sm" style="color: #ffffff;"></i> <select name="" id="nav3"><option value="">Profile</option></select></li>
+        </ul>
+</nav>
+<nav class="four">
+    <h3>Navbar</h3>
+        <ul>
+            <li>technology</li>
+            <li>gadgets</li>
+            <li>laptops</li>
+            <li><select name="" id="nav4"><option value="">Phones</option></select></li>
+        </ul>
+        <p>1</p><i id="l-e" class="fa-solid fa-envelope fa-sm" style="color: #ffffff;"></i>
+</nav>
+<nav class="five">
+    <h3>Navbar</h3>
+        <ul>
+            <li><select name="" id="nav5"><option value="">Books</option></select></li>
+            <li>movies</li>
+            <li>songs</li>
+         </ul>
+        <p>navbar text with an inline element</p>
+</nav>
+<nav class="six">
+    <h3>Navbar</h3>
+        <ul>
+            <li>shop</li>
+            <li>dolls</li>
+            <li>toys</li>
+         </ul>
+        
+        <section class="pc"><input type="search" placeholder="Search" class="scnd"></section>
+        <i class="fa-solid fa-magnifying-glass fa-sm" style="color: #000000;"></i>
+</nav>
+<nav class="seven">
+    <h3>Navbar</h3>
+        <ul>
+            <li>news</li>
+            <li>world</li>
+            <li>country</li>
+         </ul>
+        
+        <input type="search" class="trd">
+        <button id="only">SEARCH</button>
+        <nav class="eight">
+          <h1 style="color: rgb(82, 140, 173); font-family: cursive;" >MD<b style="color: blueviolet;">B</b></h1>
+          <ul id="Lst">
+            <li><i class="fa-solid fa-heart fa-sm" style="color: #ffffff;"></i>follow</li>&nbsp;&nbsp;&nbsp;
+            <li><i class="fa-solid fa-thumbs-up fa-sm" style="color: #ffffff;"></i>collaboration</li>&nbsp;&nbsp;&nbsp;
+            <li><i class="fa-solid fa-radio fa-sm" style="color: #ffffff;"></i><select name="" id="LstLst"><option value="">Media</option></select></li>
+          </ul>
+        </nav>
+</body>
+</html>
