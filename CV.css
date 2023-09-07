@@ -1,0 +1,472 @@
+ body{
+    background-color: lightgrey;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.main{
+    height: 1100px;
+    width: 52%;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 1px 1px 20px 0px rgb(99, 98, 98);
+}
+
+.child{
+    height: 1070px;
+    width: 30%;
+    margin: auto;
+    background-color: yellow;
+    position: relative;
+    top: 16px;
+    left: 80px;
+    float: left; 
+}
+.child2{
+    height: 16.2%;
+    width: 60px;
+    background-color: black;
+    position: relative;
+    top: 156px;
+    left: 20px;
+}
+.child3{
+    height: 16.2%;
+    width: 55%;
+    background-color: black;
+    position: relative;
+    bottom: 45px;
+    left: 41.5%;
+}
+img{
+    position: relative;
+    top: 1px;
+    width: 212px;
+    height: 178px;
+    opacity: 0.7;
+}
+.fa-location-dot{
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+.link{
+    color: black;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    text-align: left;
+}
+.edu{
+    text-align: center;
+}
+hr{
+    margin-top: -10px;
+    width: 150px;
+}
+.mat{
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 18px;
+}
+ul{
+    margin-left: -5px;
+}
+li{
+    line-height: 35px;
+}
+.fa-graduation-cap{
+    position: relative;
+    right: 30px;
+    top: 0px;
+    float: left;
+}
+.fa-code{
+    position: relative;
+    right: 30px;
+    top: -3px;
+    float: left;
+}
+.fa-book{
+    position: relative ;
+    right: 28px;
+    top: -2px;
+    float: left;
+}
+i{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.contact{
+    float: right;
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    left: 20px;
+}
+span{
+    position: relative;
+    top: 50px;
+    right: 50px;
+  
+}
+.fa-envelope{
+    position: relative;
+    top: 40px;
+    right: 60px;
+}
+.fa-phone{
+    position: relative;
+    top: 40px;
+    right: 60px;
+}
+.about{
+    position: relative;
+    bottom: -5px;
+    right: 150px;
+    color: aliceblue;
+    width: 510px;
+    text-align: justify;
+}
+#abt{
+    line-height: 18px;
+}
+#al{
+   width: 100px;
+   margin-right: 250px; 
+}
+section{
+    font-weight: lighter;
+}
+.skills{
+    position: relative;
+    top: -40px;
+    left: 180px;
+}
+ul{
+    list-style-type: square;
+}
+#sl, #wh{
+    margin-right: 1000px;
+    width: 70px;
+    border-color: gold;
+}
+.work{
+    position: relative;
+    left: 150px;   
+}
+#wh{
+    margin-right: 1000px;
+    background-color: gold;
+    width: 145px;   
+}
+.wp{
+    width: 500px;
+    text-align: justify;
+}
+#mat{
+   width: 250px;
+   position: relative;
+   left: 10px;   
+}
+#bk{
+    position: relative;
+    top: -0.5px;
+    left: 0px;
+}
+
+
+@media only screen and (max-width: 1100px){
+    .main{
+        height: 560px;
+        width: 250px;
+        position: relative;
+        right: 35px;
+        margin: auto;
+        background-color: white;
+        margin-top: 20px;
+        box-shadow: 1px 1px 20px 0px rgb(99, 98, 98);
+    }
+    
+    .child{
+        height: 545px;
+        width: 105px;
+        margin: auto;
+        background-color: yellow;
+        position: relative;
+        top: 7px;
+        left: 25px;
+        float: left; 
+        font-size: small;
+    }
+    .child2{
+        height: 16.2%;
+        width: 20px;
+        background-color: black;
+        position: relative;
+        top: 100px;
+        left: 5px;
+    }
+    .child3{
+        height: 16.2%;
+        width: 45%;
+        background-color: black;
+        position: relative;
+        bottom: 2px;
+        left: 52%;
+    }
+    img{
+        position: relative;
+        top: -25px;
+        width: 105px;
+        height: 16.7%;
+        opacity: 0.7;
+    }
+    .fa-location-dot{
+        position: relative;
+        top: 0px;
+        left: -8px;
+    }
+    .link{
+        color: black;
+        font-weight: bold;
+        position: relative;
+        bottom: 25px;
+        left: 25px;
+        text-align: left;
+        font-size: 10px;
+        width: 70px;
+        line-height: 10px;
+    }
+    .edu{
+        font-size: 18px;
+        position: relative;
+        bottom: 35px;
+    }
+    hr{
+        margin-top: -45px;
+        width: 80px;
+    }
+    .mat{
+        margin-left: 10px;
+        font-size: 10px;
+        line-height: 10px;
+        position: relative;
+        bottom: 5px;
+    }
+    #mat{
+        position: relative;
+        bottom: 16px;
+        width: 94.4px;
+        margin-left: -5px;
+        font-size: 11px;
+    }
+    .rcvr{
+        position: relative;
+        bottom: 25px;
+    }
+    #edu{
+        position: relative;
+        bottom: 32px;
+    }
+    #hh{
+        position: relative;
+        top: 3px;
+        width: 60px;
+    }
+    ul{
+       position: relative;
+       bottom: -2px;
+       right: 13px;
+       font-size: 11px;
+       list-style: none;
+    }
+    li{
+        line-height: 0px;
+    }
+    #std{
+        position: relative;
+        top: 5px;
+        right: 27px;
+    }
+    .fa-graduation-cap{
+        position: relative;
+        right: 30px;
+        top: -15px;
+        float: left;
+    }
+    .fa-code{
+        position: relative;
+        right: 58px;
+        top: 0px;
+        float: left;
+    }
+    .fa-book{
+        position: relative ;
+        right: 28px;
+        top: -5px;
+        float: left;
+    }
+    #b{
+        position: relative;
+        top: 15px;
+        right: 25px;
+    }
+    #bk{
+        margin-left: 10px;
+        position: relative;
+        top: 0px;
+        left: 20px;
+    }
+    .sm{
+        position: relative;
+        top: 7px;
+        width: 100px;       
+    }
+    #smh{
+        position: relative;
+        top: 30px;
+    }
+    .fa-square-facebook{
+        position: relative;
+        top: 17px;
+        right: 9px;
+    }
+    .fa-linkedin{
+        position: relative;
+        top: 17px;
+        right: 23px;
+    }
+    .fa-instagram{
+        position: relative;
+        top: 17px;
+        right: 36px;
+    }
+    .fa-youtube{
+        position: relative;
+        top: -11px;
+        right: -47px;
+    }
+    .fa-square-github{
+        position: relative;
+        top: -11px;
+        right: -32px;
+    }
+    .contact{
+        float: right;
+        display: flex;
+        margin-top: 30px;
+        position: relative;
+        left: 20px;
+    }
+    .rnh{
+        position: relative;
+        left: 28px;
+        bottom: 25px;
+        font-size: 10px;
+    }
+    .rnh2{
+        position: relative;
+        left: 3px;
+        bottom: 25px;
+        font-size: 10px;
+    }
+    #num{
+        position: relative;
+        left: -47px;
+        top: 10px;
+        font-size: 9px;
+    }
+    #email{
+        position: relative;
+        left: -82px;
+        top: 8px;
+        font-size: 9px;
+        width: 5px;
+    }
+    .fa-phone{
+        position: relative;
+        top: -26px;
+        right: 32px;
+    }
+    .fa-envelope{
+        position: relative;
+        top: -25px;
+        right: 52px;
+    }
+    #rah{
+        font-size: 18px;
+        line-height: 14px;
+        position: relative;
+        left: 60px;
+    }
+    #al{
+        position: relative;
+        top: 35.5px;
+        right: 43px;
+        width: 50px;
+    }
+    #abt{
+        font-size: 9px;
+        position: relative;
+        top: -408px;
+        left: 155px;
+        line-height: 9px;
+        width: 100px;
+        text-align: left;
+    }
+    .skills{
+        position: relative;
+        top: 10px;
+        left: 40px;
+    }
+    #rsh{
+        font-size: 18px;
+        position: relative;
+        top: -20px;
+        left: 20px;
+    }
+    #sl{
+        position: relative;
+        top: 15px;
+        left: 20px;
+        width: 37px;
+    }
+    #su{
+        display: inline-block;
+        list-style: square;
+    }
+    .sul{
+        margin: 15px;
+        position: relative;
+        left: -20px;
+    }
+    .work{
+        position: relative;
+        bottom: 200px;
+    }
+    #rwh{
+        font-size: 18px;
+        position: relative;
+        top: 200px;
+        right: 100px;
+    }
+    #wh{
+        position: relative;
+        top: 240px;
+        left: -100px;
+        width: 83px;
+    }
+    .wp{
+        position: relative;
+        top: 240px;
+        right: 100px;
+        line-height: 10px;
+        font-size: 10px;
+        width: 200px;
+        text-align: left;
+    }
+}
